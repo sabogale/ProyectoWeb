@@ -8,7 +8,6 @@
 </head> 
 <body>
 <%
-
 		Conexion conexion = new Conexion();
         if(conexion.abrirConexion()) {
         	out.println(conexion.consultar("select * from users"));
